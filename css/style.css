@@ -1,0 +1,283 @@
+body{
+    font-family: 'Courgette', cursive;
+    font-family: 'Amiri', serif;
+    font-size:15px;
+    line-height:2;
+    padding:0;
+    margin:0;
+    background-color:white;
+    cursor:pointer;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+/*Unordered List*/
+ul{
+    margin:0;
+    padding:25px;
+    
+
+}
+
+li{
+    padding:30px;
+    font-size:20px;
+    padding:10px;
+    color:white;
+    display:inline;
+}
+
+
+/*Header*/
+header{
+    background: pink;
+    color:white;
+    padding-top:30px;
+    min-height:70px;
+    border-bottom: orchid 3px solid;
+
+}
+
+/*Home, About, and Services link*/
+header a{
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size:16px;
+    
+}
+
+
+
+header li{
+    float:left;
+    display: inline;
+    padding: 0 120px 0 120px;
+
+}
+
+
+
+header #liningofTop{
+    float:center;
+
+} 
+
+header #liningofTop h1{
+    margin:0;
+
+}
+
+header nav{
+    float:right;
+    margin-top:10px;
+}
+
+
+/*List buttons*/
+header a:hover{
+    color:orchid;
+    font-weight:bold;
+    transition: 0.6s ease;
+}
+
+/*Top-border-background*/
+
+#Top-border-background{
+    min-height: 300px;
+    background:url('../img/wolf.jpg');
+    text-align:center;
+    background-size: cover;
+    background-position: center;
+  color:white;
+}
+
+#Top-border-background h1{
+margin-top: 100px;
+font-size:55px;
+margin-bottom:10px;
+}
+
+#Top-border-background p{
+    font-size:20px;
+}
+
+/*Join Us Headline*/
+#Bottom-Of-Border{
+    margin-bottom:10px;
+    text-align:center;
+    padding:15px;
+    color:white;
+    background:pink;
+    
+}
+
+/*Search Item*/
+.button_1{
+    height:20px;
+    background:orchid;
+    /* border:0; */
+    float:right;
+    border-radius: 5px;
+    width:10%;
+    margin-right: 5px
+    }
+    
+    /*Subscribe*/
+    .button_2{
+        height:20px;
+        background:orchid;
+         float:center; 
+        border-radius: 5px;
+        width:10%;
+        margin-left:auto;
+        margin-right:auto;
+        
+        
+        
+        }
+    
+/*Search Item Input*/
+.input{
+    float:right;
+    display: inline-block;
+    margin-right:10px;
+}
+
+/*Email Input*/
+.input2[type="text"]{
+    display: block;
+    margin:0 auto;
+}
+
+.Featured{
+    font-size:30px;
+    font-weight:bold;
+    text-decoration: underline;
+    color:orchid;
+    margin:0;
+    float:center;
+  
+} 
+
+ .center{
+
+    display:block;
+    margin-left: auto;
+    margin-right: auto; 
+    width:150px;
+
+} 
+
+.Featured{
+    text-align:center;
+    font-size:40px;
+}
+
+
+/*boxes*/
+#featuredPics{
+margin-top:100px;
+
+}
+
+/*Featured Products Pics*/
+#featuredPics .pic{
+
+    float:left;
+    text-align:center;
+    width:30%;
+    padding:10px;
+}
+
+#featuredPics .pic img{
+    width:200px;
+    
+}
+
+footer{
+    padding:20px;
+    margin-top:20px;
+    color:white;
+    background-color:pink;
+    text-align:center;
+}
+
+/*Perler mom title*/
+.space{
+    text-align:center;
+    font-size: 50px;
+    color:white;
+
+}
+
+.about{
+    font-family: Arial, Helvetica, sans-serif;
+    color:orchid;
+    font-size:40px;
+    font-weight: bold;
+    padding:15px;
+    text-decoration: underline;
+    text-align:center;
+}
+
+.welcome{
+    font-family: Arial, Helvetica, sans-serif;
+    color:orchid;
+    font-size:30px;
+    margin-top:10px;
+    font-weight:bold;
+    padding:15px;
+    text-align:center;
+    
+}
+
+/*Facebook Link*/
+ form a {
+
+    font-size:25px;
+    margin-right: 20px; 
+    margin:10px;
+    text-align: center;
+    display: block;
+    
+} 
+
+.Subscribe{
+    color:orchid;
+    text-align:center;
+}
+
+/*Intro on About Page*/
+.Intro{
+color:white;
+font-size:20px;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+padding:15px;
+}
+
+
+/*Picture Captions*/
+h3{
+    font-size:20px;
+    font-weight:bold;
+    text-decoration: underline;
+    color:orchid;
+}
+
+.background{
+    background:pink;
+}
+
+
+/* .contact{
+    border-top: 2px dotted purple;
+    color:orchid;
+    font-size:25px;
+    padding:15px;
+    text-decoration: underline;
+} */
